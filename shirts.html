@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="shirt.css">
+</head>
+
+<body>
+    <nav class="home">
+        <div>
+            <a href="main.html"><img src="logo.png" alt="s_mart"></a>
+        </div>
+        <ul>
+            <span>
+                <li><a href="#">Shirts</a></li>
+            </span>
+            <li>
+                <input type="search" name="" id="btn" value="Search">
+                <button class="srch">search</button>
+            </li>
+            
+            <li><a href="game.html">Games</a></li>
+            
+        </ul>
+    </nav>
+
+    <nav class="nav-area">
+        <div class="home2">
+        <ul>
+            <li><a href="#">Men</a>
+            <ul class="men">
+                <li><a href="shirts.html">Shirts</a></li>
+                <li><a href="tshirts.html">T-Shirts</a></li>
+                <li><a href="jeans.html">Jeans</a></li>
+                <li><a href="Shoes.html">Shoes</a></li>
+            </ul>
+            </li>
+            <li><a href="#">Women</a>
+                <ul class="women">
+                    <li><a href="shirts.html">Shirts</a></li>
+                    <li><a href="tshirts.html">T-Shirts</a></li>
+                    <li><a href="jeans.html">Jeans</a></li>
+                    <li><a href="Shoes.html">Shoes</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Kids</a>
+                <ul class="kids">
+                    <li><a href="shirts.html">Shirts</a></li>
+                    <li><a href="tshirts.html">T-Shirts</a></li>
+                    <li><a href="jeans.html">Jeans</a></li>
+                    <li><a href="Shoes.html">Shoes</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    </nav>
+    <br>
+    <br>
+
+    <div class="heading">Shirts</div>
+
+    <div class="fil">
+        <fieldset>
+            <form action="backend.php" class="filt">
+                <strong>Price</strong>
+                <br>
+                <br>
+                <input type="range" name="" id="">
+                 <br>
+                <br>
+                <hr>
+                <br>
+                <strong>Colour</strong>
+                <br>
+                <br>
+
+                <div class="input-color">
+                    <div class="color-box" style="background-color: red;"></div>
+                    <label for="red">&emsp; Red</label>
+                    <input type="radio" name="fil" onclick="red()">
+                </div>
+                <div class="input-color">
+                    <div class="color-box" style="background-color: blue;"></div>
+                    <label for="Blue">&emsp; Blue</label>
+                    <input type="radio" name="fil" onclick="blue()">
+                </div>
+                <div class="input-color">
+                    <div class="color-box" style="background-color: black;"></div>
+                    <label for="black">&emsp; Black</label>
+                    <input type="radio" name="fil" onclick="black()">
+                </div>
+                <div class="input-color">
+                    <div class="color-box" style="background-color: white;"></div>
+                    <label for="White">&emsp; White</label>
+                    <input type="radio" name="fil" onclick="white()">
+                </div>
+                <div class="input-color">
+                    <div class="color-box" style="background-color: green;"></div>
+                    <label for="Green">&emsp; Green</label>
+                    <input type="radio" name="fil">
+                </div>
+                <div class="input-color">
+                    <div class="color-box" style="background-color: yellow;"></div>
+                    <label for="yellow">&emsp; Yellow</label>
+                    <input type="radio" name="fil">
+                </div>
+                <div class="input-color">
+                    <div class="color-box" style="background-color: orangered;"></div>
+                    <label for="Orange">&emsp; Orange</label>
+                    <input type="radio" name="fil">
+                </div>
+                <div class="input-color">
+                    <div class="color-box" style="background-color: brown;"></div>
+                    <label for="Brown">&emsp; Brown</label>
+                    <input type="radio" name="fil">
+                </div>
+                <div class="input-color">
+                    <div class="color-box" style="background-color: pink;"></div>
+                    <label for="Pink">&emsp; Pink</label>
+                    <input type="radio" name="fil">
+                </div>
+                <br>
+                
+                
+
+            </form>
+        </fieldset>
+    </div>
+    <div class="sh">
+    
+</div>
+
+<div class="clicked">
+
+</div>
+ 
+<div class="none">
+    <section class="sec-img">
+        <a class="i1" href="shirts1.html" id="black"><img src="s1.webp" alt=""></a>
+        
+            <a class="i2" href="shirts2.html" id="black"><img src="s2.webp" alt=""></a>
+     
+
+        <a class="i3" href="shirts3.html" id="red"><img src="s3.webp" alt=""></a>
+       
+    </section>
+
+    <section class="sec-st">
+        <strong class="strong1">Shirt No.1</strong>
+         
+        
+        <strong class="strong1">Shirt No.2</strong>
+         
+         
+        <strong class="strong1">Shirt No.3</strong>
+        
+    </section>
+
+    <section class="sec-p">
+        <p class="p1">Men Slim Fit Shirt</p>
+        <p class="p2">Men Slim Fit Shirt</p>
+        <p class="p3">Men Slim Fit Shirt</p>
+    </section>
+
+    <section class="sec-rate">
+        <pre class="r1"><strong>Rs.449</strong><strike>Rs. 1249</strike><span style="color: red;">(64% OFF)</span></pre>
+        <pre class="r2"><strong>Rs.649</strong><strike>Rs. 1449</strike><span style="color: red;">(64% OFF)</span></pre>
+        <pre class="r3"><strong>Rs.849</strong><strike>Rs. 1649</strike><span style="color: red;">(64% OFF)</span></pre>
+    </section>
+
+    <section class="sec-img2">
+        <a class="i4" href="shirts4.html" id="blue"><img src="s4.webp" alt=""></a>
+        
+            <a class="i5" href="shirts5.html" id="white" ><img src="s5.webp" alt=""></a>
+     
+
+        <a class="i6" href="shirts6.html" id="blue"><img src="s6.webp" alt=""></a>
+       
+    </section>
+
+    <section class="sec-st2">
+        <strong class="strong1">Shirt No.4</strong>
+         
+        
+        <strong class="strong1">Shirt No.5</strong>
+         
+        
+        <strong class="strong1">Shirt No.6</strong>
+        
+    </section>
+
+    <section class="sec-p2">
+        <p class="p4">Men Slim Fit Shirt</p>
+        <p class="p5">Men Slim Fit Shirt</p>
+        <p class="p6">Men Slim Fit Shirt</p>
+    </section>
+
+    <section class="sec-rate2">
+        <pre class="r4"><strong>Rs.449</strong><strike>Rs. 1249</strike><span style="color: red;">(64% OFF)</span></pre>
+        <pre class="r5"><strong>Rs.449</strong><strike>Rs. 1249</strike><span style="color: red;">(64% OFF)</span></pre>
+        <pre class="r6"><strong>Rs.449</strong><strike>Rs. 1249</strike><span style="color: red;">(64% OFF)</span></pre>
+    </section>
+</div>
+
+<script src="filter.js"></script>
+
+</body>
+
+</html>

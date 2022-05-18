@@ -1,0 +1,285 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: floralwhite; */
+    font-family: sans-serif;
+
+}
+
+/* NAVIGATION BAR */
+
+
+/* Image */
+nav img{
+    height: 50px;
+    width: 66px;
+    margin-left: 10px;
+}
+
+/* Nav Bar */
+.home{
+    display: flex;
+    position: sticky;
+    left: 0px;
+    top: 0px;
+    align-items: center;
+    background-color: rgb(12 10 143); 
+    /* width: 1349px; */
+    height: 72px;
+}
+.srch{
+        padding: 1px;
+        left: 0px;
+        cursor: pointer;
+        
+}
+
+.img img{
+    padding-left: 78px;
+    z-index: -1;
+    width: 241px;
+    /* margin-left: 86px; */
+}
+
+.sale{
+    margin-bottom: 10px;
+    padding-left: 20px;
+    width: 500px;
+    margin-left: 113px;
+}
+
+.ad2{
+    height: 400px;
+}
+
+#btn{
+    width: 708px;
+    height: 29px;
+}
+
+#contact{
+    justify-content: flex-end;
+}
+
+
+/* List */
+.home ul{
+    display: flex;
+    
+}
+
+.home ul li{
+    list-style: none;
+    margin-top: 22px;
+}
+
+.home ul li p{
+    text-decoration: none;
+    padding:3px 17px 11px 17px;
+    /* margin: 7px; */
+    margin-top: 0px;
+    margin-bottom: 18px;
+    color: white;
+    font-size: 19px;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+}
+
+.home ul li a{
+    text-decoration: none;
+    padding:3px 17px 11px 17px;
+    margin-right: -10px;
+    margin-left: 80px;
+    margin-top: 10px;
+    color: white;
+    font-size: 19px;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+}
+
+.home ul li a:hover{
+    background-color: turquoise;
+}
+
+
+/* List 2 */
+
+.home2 ul{
+    display: flex;
+    background-color:  rgb(74, 74, 199);
+}
+
+.nav-area{
+    position: sticky;
+    top: 72px;
+    
+ }
+
+.home2 p {
+    margin-left: auto;  
+    margin-top: 14px;
+    margin-right: 100px;
+    font-weight: bolder;
+}
+
+
+.nav-area ul {
+	list-style: none;
+	margin: 0;
+    /* justify-content: center; */
+}
+
+.nav-area>ul>li {
+	float: left;
+	position: relative;
+}
+.nav-area ul li a {
+	text-decoration: none;
+	color: black;
+	padding: 15px 20px;
+	display: block;
+}
+.nav-area ul li:hover a {
+	background: #34495e;
+    font-weight: bolder;
+}
+.nav-area ul .men {
+	position: absolute;
+	padding: 0;
+	min-width: 160px;
+	display: none;
+	top: 100%;
+	left: 0;
+}
+
+.nav-area ul .women {
+	position: absolute;
+	padding: 0;
+	min-width: 160px;
+	display: none;
+	top: 100%;
+	left: 71px;
+}
+
+.nav-area ul .kids {
+	position: absolute;
+	padding: 0;
+	min-width: 160px;
+	display: none;
+	top: 100%;
+	left: 166px;
+}
+
+.nav-area ul li:hover>ul {
+	display: block;
+}
+.nav-area ul ul li:hover a {
+	background: #262626;
+}
+
+
+ /*MAIN BODY  */
+
+/* Sec1 */
+.sec1 h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    z-index: -1;
+    color: rgb(32,168, 209);
+}
+
+.sec1{
+    flex-direction: column;
+    display: flex;
+    padding: 10px;
+    height: 370px;
+    justify-content: center;
+    align-items: left;
+}
+.sec1::before{
+    content: "";
+    background: url('home.webp') no-repeat center center/cover;
+    position: absolute;
+    top: 78px;
+    left: 0px;
+    height: 450px;
+    width: 100%;
+    z-index: -2;
+    opacity: 1;
+}
+
+/* Items */
+
+.store{
+    padding: 70px 10px 10px 10px;
+    font-size: 40px;
+
+}
+
+/* FOOTER */
+
+.b2top{
+    background-color: rgb(74, 74, 199);
+    text-align: center;
+    height: 32px;
+}
+
+.b2top a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(29 28 116);
+}
+
+.h3a{
+    margin:20px;
+    
+    
+}
+
+.h3b{
+    margin: 20px;
+    
+}
+
+.h3c{
+    margin: 20px;
+    
+}
+
+.v1{
+    border-left: 1px solid gray;
+    height: 55px;
+}
+
+p{
+    display: block;
+}
+
+
+
+.contact2{
+    list-style: none;
+    justify-content: space-around;
+    background-color: rgb(29 28 116);
+    display: flex;
+}
+
+.h6a,.h6b,.h6c{
+    margin: 20px;
+    color: white;
+    margin-left: -76px;
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Advise </title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        body{
+            margin: 0%;
+            padding: 0%;
+            background-image: url(background-img.jpg);
+            background-image: radial-gradient(rgb(255, 255, 255),rgb(227, 224, 248))
+
+
+        }
+
+        * {
+            text-decoration: none;
+            
+        }
+        .left{
+            color: rgb(123, 9, 230);
+            margin-top: 11px;
+            margin-right: 2px;
+            margin-left: 31px;
+            font-size: 33px;
+            position: fixed;
+
+        }
+        .shadow{
+            box-shadow: -3px -4px 10px rebeccapurple;
+        }
+
+        .bar {
+            display: inline-block;
+
+         
+            margin-top: -16px;
+            border-radius: 12px;
+            border: solid #aa7ed1;
+
+            align-items: center;
+
+
+
+
+
+
+
+
+
+        }
+
+        .container {
+            display: flex;
+            overflow: auto;
+            position: absolute;
+            right: 23px;
+            top: -24px;
+            position: fixed;
+            margin: 22px;
+            
+            
+            
+
+
+
+        }
+
+        .bar li {
+
+            list-style: none;
+            padding: 6px;
+            margin: 12px;
+            float: left;
+            margin-top: 11px;
+            right: 22px;
+            width: 108px;
+            font-size:23px;
+            
+            
+
+
+
+
+
+
+        }
+
+        .bar li a:hover {
+            text-decoration:underline ;
+            color: rgb(214, 98, 98);
+            
+        }
+        .land{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 10vw 0 10vw;
+            height: 36vh;
+            margin-top: 22px;
+            margin: 25px;
+        }
+        #heading{
+            position: absolute;
+            top: 133px;
+        }
+        h2{
+            color: darkgray;
+            padding: 84px;
+            margin: 31px;
+            
+        }
+        .abc{
+            position: absolute;
+            top: 114px;
+            left: 34px;
+            opacity: 0.7;
+        }
+        .btn{
+            position: absolute;
+            top: 341px;
+            left: 234px;
+            font-size: 27px;
+            border: solid rgb(232, 182, 253);
+            border-radius: 5px;
+            background-color: rgb(205, 116, 243);
+            
+            
+        }
+        .btn a:hover{
+            text-decoration: underline;
+            color: brown;
+        }
+        .image{
+            position: absolute;
+            top: 88px;
+            left: 481px;
+            width: 0px;
+            height: 0px;
+        
+            
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="left"data-aos="fade-up">
+            <div class="shadow">Covid-19</div>
+        </div>
+        <nav class="bar">
+            <ul class="container">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Preventions</a></li>
+                <li><a href="#">Symptoms</a></li>
+                <li><a href="#">Precaution</a></li>
+                <li><a href="#">Hand-Wash</a></li>
+
+            </ul>
+        </nav>
+        <div class="land"data-aos="fade-up"data-aos-duration="1000">
+            <h1 id="heading">Stay Home.<span style="color: chocolate;font-size:4vw">Stay Safe</span></h1>
+            <h2 class="abc">If you show Symptoms of Covid 19,<br> self isolated yourself medical advice <br>Help Stop the Spread</h2>
+            <div class="btn"> 
+            <a href="#">How To Prevent</a>
+            </div>
+            <div class="image"data-aos="fade-down"data-aos-duration="2000">
+                <img src="covid front page image.webp" alt=""width="800px">
+                
+
+            </div>
+
+
+        </div>
+    </header>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    
+
+</body>
+
+</html>
